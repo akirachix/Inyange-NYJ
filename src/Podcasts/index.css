@@ -1,0 +1,21 @@
+.intro{
+    display: flex;
+    flex-direction: row;
+}
+p{
+    width: 600px;
+    margin-left: 220px;
+    margin-top: 278px;
+    font-size: 25px;
+}
+.img{
+    width: 700px;
+    margin-top: 78px;
+    margin-left: 140px;
+}
+button{
+    margin-left: 420px;
+    width: 120px;
+    height: 40px;
+    border-radius: 25px;
+}
