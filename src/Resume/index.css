@@ -1,0 +1,325 @@
+.heading{
+   font-size: 40px;
+   margin-top: 30px;
+   text-align: center;
+}
+.container{
+   padding-top: 70px;
+   padding-bottom: 60px;
+}
+.threeportraits{
+   display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.lasttwoportraits{
+   display: flex;
+   justify-content: center;
+   margin-top: 80px;
+   gap: 350px;
+   border-radius: 50%;
+}
+.profile{
+   width: 200px;
+}
+.portrait{
+   margin-top: 50pt;
+   width: 300px;
+   border-radius: 50%;
+   border: 3px solid #113D3C;
+   padding: 15px;
+}
+.portrait1{
+   width: 300px;
+   margin-top: 65px;
+   border-radius: 50%;
+   border: 3px solid #113D3C;
+   padding: 15px;
+   
+}
+p{
+   font-size: 20px;
+   text-align: center;
+}
+
+button {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    border: 1px solid #000;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  button:hover {
+    background-color: #113D3C;
+    color: #fff;
+    
+  }
+  a{
+    text-decoration: none;
+    color: #000;
+  }
+
+
+@media only screen and (min-width:300px) and (max-width: 349px){
+}
+@media only screen and (min-width:350px) and (max-width: 400px){
+   .heading{
+       font-size: 25px;
+       margin-top: 30px;
+       text-align: center;
+   }
+   .threeportraits{
+       flex-wrap: wrap;
+      justify-content: center;
+   }
+   .lasttwoportraits{
+       flex-wrap: wrap;
+       justify-content: center;
+       margin-top: 5px;
+       gap: 240px;
+   }
+   .profile{
+       width: 100px;
+   }
+   .portrait{
+       margin-top: 50pt;
+       width: 200px;
+   }
+   .portrait1{
+       width: 190px;
+       margin-top: -90%;
+   }
+   p{
+       font-size: 18px;
+       text-align: center;
+   }
+}
+@media only screen and (min-width:401px) and (max-width: 500px){
+   .heading{
+       font-size: 25px;
+       margin-top: 30px;
+       text-align: center;
+   }
+   .threeportraits{
+       flex-wrap: wrap;
+      justify-content: center;
+   }
+   .lasttwoportraits{
+       flex-wrap: wrap;
+       justify-content: center;
+       margin-top: 5px;
+       gap: 240px;
+   }
+   .profile{
+       width: 10px;
+   }
+   .portrait{
+       margin-top: 50pt;
+       width: 220px;
+   }
+   .portrait1{
+       width: 200px;
+       margin-top: -90%;
+   }
+   p{
+       font-size: 18px;
+       text-align: center;
+   }
+}
+@media only screen and (min-width:451px) and (max-width: 500px){
+   .heading{
+       font-size: 25px;
+       margin-top: 30px;
+       text-align: center;
+   }
+   .threeportraits{
+       flex-wrap: wrap;
+      justify-content: center;
+   }
+   .lasttwoportraits{
+       flex-wrap: wrap;
+       justify-content: center;
+       margin-top: 5px;
+       gap: 240px;
+   }
+   .profile{
+       width: 10px;
+   }
+   .portrait{
+       margin-top: 50pt;
+       width: 210px;
+   }
+   .portrait1{
+       width: 200px;
+       margin-top: -90%;
+   }
+   p{
+       font-size: 18px;
+       text-align: center;
+   }
+}
+@media only screen and (min-width:501px) and (max-width: 600px){
+}
+@media only screen and (min-width:601px) and (max-width: 700px){
+}
+@media only screen and (min-width:701px) and (max-width: 800px){
+   .heading{
+       font-size: 25px;
+       margin-top: 30px;
+       text-align: center;
+   }
+   .threeportraits{
+   gap: 60px;
+      justify-content: center;
+   }
+   .lasttwoportraits{
+       justify-content: center;
+       margin-top: 5px;
+       gap: 70px;
+   }
+   .profile{
+       width: 10px;
+   }
+   .portrait{
+       margin-top: 50pt;
+       width: 180px;
+   }
+   .portrait1{
+       width: 180px;
+       margin-top: 38%;
+   }
+   p{
+       font-size: 18px;
+       text-align: center;
+   }
+}
+@media only screen and (min-width:801px) and (max-width: 900px){
+   .heading{
+       font-size: 25px;
+       margin-top: 30px;
+       text-align: center;
+   }
+   .threeportraits{
+      gap: 100px;
+      justify-content: center;
+   }
+   .lasttwoportraits{
+       justify-content: center;
+       margin-top: 5px;
+       gap: 50px;
+   }
+   .profile{
+       width: 10px;
+   }
+   .portrait{
+       margin-top: 50pt;
+       width: 180px;
+   }
+   .portrait1{
+       width: 180px;
+       margin-top: 38%;
+   }
+   p{
+       font-size: 18px;
+       text-align: center;
+   }
+}
+@media only screen and (min-width:901px) and (max-width: 950px){
+   .heading{
+       font-size: 25px;
+       margin-top: 30px;
+       text-align: center;
+   }
+   .threeportraits{
+      gap: 100px;
+      justify-content: center;
+   }
+   .lasttwoportraits{
+       justify-content: center;
+       margin-top: 5px;
+       gap: 50px;
+   }
+   .profile{
+       width: 10px;
+   }
+   .portrait{
+       margin-top: 50pt;
+       width: 180px;
+   }
+   .portrait1{
+       width: 180px;
+       margin-top: 38%;
+   }
+   p{
+       font-size: 18px;
+       text-align: center;
+   }
+}
+@media only screen and (min-width:1000px) and (max-width: 1199px){
+   .heading{
+       font-size: 80px;
+       margin-top: 30px;
+       text-align: center;
+   }
+   .threeportraits{
+      gap: 100px;
+      justify-content: center;
+   }
+   .lasttwoportraits{
+       justify-content: center;
+       margin-top: 5px;
+       gap: 50px;
+   }
+   .profile{
+       width: 10px;
+   }
+   .portrait{
+       margin-top: 50pt;
+       width: 180px;
+   }
+   .portrait1{
+       width: 180px;
+       margin-top: 38%;
+   }
+   p{
+       font-size: 18px;
+       text-align: center;
+   }
+   }
+   @media only screen and (min-width:1200px) and (max-width: 1400px){
+       .heading{
+           font-size: 55px;
+           margin-top: 30px;
+           text-align: center;
+       }
+       .threeportraits{
+          gap: 100px;
+          justify-content: center;
+       }
+       .lasttwoportraits{
+           justify-content: center;
+           margin-top: 5px;
+           gap: 50px;
+       }
+       .profile{
+           width: 10px;
+       }
+       .portrait{
+           margin-top: 50pt;
+           width: 250px;
+           border: 3px solid red;
+           padding: 10px;
+       }
+       .portrait1{
+           width: 250px;
+           margin-top: 32%;
+       }
+       p{
+           font-size: 18px;
+           text-align: center;
+       }
+}
