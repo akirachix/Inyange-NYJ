@@ -1,21 +1,173 @@
-.intro{
+/* /* .intro{
+    display: flex;
+    flex-direction: row;
+    height: 975px;
+    background-image: url(https://techcrunch.com/wp-content/uploads/2023/05/DLZ_Creator_Lifestyle_1-1.jpg?resize=13800,800);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+p{
+    width: 600px;
+    margin-left: -400px;
+    margin-top: 35px;
+    font-size: 25px;
+    color: white;
+}
+h1{
+    color: white;
+    margin-left: 780px;
+    white-space: nowrap;
+    margin-top: 113px;
+   
+} 
+h2{
+    margin-top: 309px;
+    margin-left: -230px;
+    color: white;
+   
+
+}
+
+
+.w{
     display: flex;
     flex-direction: row;
 }
-p{
-    width: 600px;
-    margin-left: 220px;
-    margin-top: 278px;
-    font-size: 25px;
-}
-.img{
-    width: 700px;
-    margin-top: 78px;
-    margin-left: 140px;
+img{
+    width: 200px;
+    margin-top: -2px; 
+    margin-left: 60px;
 }
 button{
-    margin-left: 420px;
+    margin-left: -200px;
     width: 120px;
     height: 40px;
     border-radius: 25px;
+}
+
+ */Base styles (for mobile devices)
+
+ Base styles (for mobile devices)se styles (for mobile devices)
+.intro {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    background-position: center;
+    
+}
+h1 {
+    margin-left: 0;
+    margin-top: 20px;
+    text-align: center;
+}
+h2 {
+    margin-top: 20px;
+    margin-left: 0;
+    text-align: center;
+}
+p {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+    font-size: 16px;
+    color: black;
+    
+}
+
+button {
+    margin-left: 0;
+    margin-top: 20px;
+    display: block;
+    margin: 20px auto;
+}
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) {
+    .intro {
+        height: 700px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 18px;
+    }
+}
+
+
+
+
+ .intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(https://techcrunch.com/wp-content/uploads/2023/05/DLZ_Creator_Lifestyle_1-1.jpg?resize=1380,800);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.content {
+    max-width: 600px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+h1 {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+p {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+/* Media Queries */
+/* Small devices (phones, 576px and up) */
+@media screen and (min-width: 576px) {
+    .content {
+        max-width: 80%;
+    }
+}
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+    .content {
+        max-width: 70%;
+    }
+    h1 {
+        font-size: 42px;
+    }
+    p {
+        font-size: 20px;
+    }
+}
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 600px;
+    }
+    h1 {
+        font-size: 48px;
+    }
+    p {
+        font-size: 22px;
+    }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    .content {
+        max-width: 700px;
+    }
 }
