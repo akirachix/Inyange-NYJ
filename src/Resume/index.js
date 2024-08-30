@@ -30,7 +30,7 @@ function Resume() {
             </a>
           </button>
         </div>
-        <div className="profilethree">
+        {/* <div className="profilethree">
           <img src={shimwe} alt="headshot" className="portrait"></img>
           <p>Nancy Shimwe</p>
           <button>
@@ -38,7 +38,7 @@ function Resume() {
               View
             </a>
           </button>
-        </div>
+        </div> */}
       </div>
       <div className="lasttwoportraits">
         <div className="profilefour">
@@ -53,7 +53,7 @@ function Resume() {
             </a>
           </button>
         </div>
-        <div className="profilefive">
+        {/* <div className="profilefive">
           <img src={Oyelaaa} alt="headshot" className="portrait1"></img>
           <p>Eyvone Annet Oyella</p>
           <button>
@@ -61,7 +61,7 @@ function Resume() {
               View
             </a>
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
   );

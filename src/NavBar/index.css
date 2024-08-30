@@ -218,10 +218,11 @@
   .hambuger{
     display: block;
     margin-top: -100px;
-    margin-left: 80%;
+    margin-left: 90%;
     color: #113D3C;
   }
-  
+
+ 
   .links{
     position: fixed;
     top: 0;
@@ -283,8 +284,8 @@
   
   .hambuger{
     display: block;
-    margin-top: -90px;
-    margin-left: 70%;
+    margin-top: -130px;
+    margin-left: 90%;
     color: #113D3C;
   }
   
@@ -304,10 +305,10 @@
   .links li {
     list-style-type: none;
     margin-bottom: 30px;
-    font-size: 40px;
+    font-size: 25px;
     margin-left: 23px;
-    margin-top: 35px;
-    padding-top: 40px;
+    margin-top: 15px;
+    padding-top: 30px;
   }
   
   .links a {

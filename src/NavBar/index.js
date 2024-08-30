@@ -55,7 +55,7 @@ function Navbar() {
       </nav>
 
       <div className="hambuger">
-        <HamburgerIcon toggled={isOpen} size={20} toggle={handleHamburgerClick} />
+        <HamburgerIcon toggled={isOpen} size={30} toggle={handleHamburgerClick}/>
         {isOpen && (
           <motion.div
             initial={{ x: '100%' }}
